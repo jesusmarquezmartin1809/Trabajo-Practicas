@@ -1,16 +1,50 @@
 [
   {
+    "cif": "B12345678",
     "nombre": "Tech Solutions S.L.",
     "direccion": "Calle Falsa 123",
-    "web": "www.techsolutions.com",
+    "web": "https://www.techsolutions.com",
     "email": "info@tech.com",
-    "telefono": "912344556"
+    "telefono": "912344556",
+    "persona_contacto": "Ana García",
+    "responsable_legal": {
+      "nombre": "Pedro Martínez",
+      "dni": "12345678A"
+    },
+    "tutores_laborales": [
+      {
+        "nombre": "Laura Sánchez",
+        "dni": "87654321B",
+        "telefono": "612000001"
+      }
+    ],
+    "plazas": [
+      { "ciclo_id": 1, "num_alumnos": 2 },
+      { "ciclo_id": 2, "num_alumnos": 1 }
+    ]
   },
   {
+    "cif": "A98765432",
     "nombre": "Innovatech",
     "direccion": "Avenida de la Paz 5",
-    "web": "www.innovatech.es",
+    "web": "https://www.innovatech.es",
     "email": "hr@innovatech.es",
-    "telefono": "934556677"
+    "telefono": "934556677",
+    "persona_contacto": "Carlos Romero",
+    "responsable_legal": {
+      "nombre": "Sofía Delgado",
+      "dni": "11223344C"
+    },
+    "tutores_laborales": [
+      {
+        "nombre": "Miguel Torres",
+        "dni": "44332211D",
+        "telefono": "623000002"
+      }
+    ],
+    "plazas": [
+      { "ciclo_id": 1, "num_alumnos": 3 },
+      { "ciclo_id": 2, "num_alumnos": 2 }
+    ]
   }
 ]
