@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "Tech Solutions S.L.",
+    "direccion": "Calle Falsa 123",
+    "web": "www.techsolutions.com",
+    "email": "info@tech.com",
+    "telefono": "912344556"
+  },
+  {
+    "nombre": "Innovatech",
+    "direccion": "Avenida de la Paz 5",
+    "web": "www.innovatech.es",
+    "email": "hr@innovatech.es",
+    "telefono": "934556677"
+  }
+]
