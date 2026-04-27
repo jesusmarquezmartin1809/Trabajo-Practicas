@@ -1,0 +1,4 @@
+nombre,email,contrasena,rol,ciclo_id,telefono
+Juan Perez,juan@ejemplo.com,hash123,alumno,1,600111222
+Maria Lopez,maria@ejemplo.com,hash456,alumno,2,600333444
+Carlos Ruiz,carlos@ejemplo.com,hash789,alumno,1,600555666
