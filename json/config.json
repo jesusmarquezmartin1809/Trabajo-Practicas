@@ -1,50 +1,126 @@
 [
   {
+    "id": 1,
     "cif": "B12345678",
     "nombre": "Tech Solutions S.L.",
-    "direccion": "Calle Falsa 123",
+    "direccion": {
+      "calle": "Calle Falsa 123",
+      "ciudad": "Madrid",
+      "provincia": "Madrid",
+      "codigo_postal": "28001"
+    },
     "web": "https://www.techsolutions.com",
     "email": "info@tech.com",
     "telefono": "912344556",
-    "persona_contacto": "Ana García",
+    "fecha_creacion": "2015-03-10",
+    "sector": "Desarrollo de Software",
+    "numero_empleados": 45,
+    "descripcion": "Empresa especializada en soluciones web y aplicaciones empresariales.",
+    "persona_contacto": {
+      "nombre": "Ana García",
+      "cargo": "Coordinadora de RRHH",
+      "telefono": "611111111",
+      "email": "ana.garcia@tech.com"
+    },
     "responsable_legal": {
       "nombre": "Pedro Martínez",
-      "dni": "12345678A"
+      "dni": "12345678A",
+      "cargo": "CEO"
     },
     "tutores_laborales": [
       {
+        "id": 1,
         "nombre": "Laura Sánchez",
         "dni": "87654321B",
-        "telefono": "612000001"
+        "telefono": "612000001",
+        "email": "laura.sanchez@tech.com",
+        "departamento": "Backend"
+      },
+      {
+        "id": 2,
+        "nombre": "Javier Molina",
+        "dni": "55443322F",
+        "telefono": "612000009",
+        "email": "javier.molina@tech.com",
+        "departamento": "Frontend"
       }
     ],
     "plazas": [
-      { "ciclo_id": 1, "num_alumnos": 2 },
-      { "ciclo_id": 2, "num_alumnos": 1 }
-    ]
+      {
+        "ciclo_id": 1,
+        "nombre_ciclo": "Desarrollo de Aplicaciones Web",
+        "num_alumnos": 2,
+        "horario": "Mañana"
+      },
+      {
+        "ciclo_id": 2,
+        "nombre_ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+        "num_alumnos": 1,
+        "horario": "Tarde"
+      }
+    ],
+    "activo": true
   },
   {
+    "id": 2,
     "cif": "A98765432",
     "nombre": "Innovatech",
-    "direccion": "Avenida de la Paz 5",
+    "direccion": {
+      "calle": "Avenida de la Paz 5",
+      "ciudad": "Barcelona",
+      "provincia": "Barcelona",
+      "codigo_postal": "08002"
+    },
     "web": "https://www.innovatech.es",
     "email": "hr@innovatech.es",
     "telefono": "934556677",
-    "persona_contacto": "Carlos Romero",
+    "fecha_creacion": "2018-09-21",
+    "sector": "Ciberseguridad",
+    "numero_empleados": 80,
+    "descripcion": "Consultoría tecnológica centrada en seguridad informática y cloud.",
+    "persona_contacto": {
+      "nombre": "Carlos Romero",
+      "cargo": "Responsable de Selección",
+      "telefono": "622222222",
+      "email": "carlos.romero@innovatech.es"
+    },
     "responsable_legal": {
       "nombre": "Sofía Delgado",
-      "dni": "11223344C"
+      "dni": "11223344C",
+      "cargo": "Directora General"
     },
     "tutores_laborales": [
       {
+        "id": 3,
         "nombre": "Miguel Torres",
         "dni": "44332211D",
-        "telefono": "623000002"
+        "telefono": "623000002",
+        "email": "miguel.torres@innovatech.es",
+        "departamento": "DevOps"
+      },
+      {
+        "id": 4,
+        "nombre": "Elena Ruiz",
+        "dni": "66778899G",
+        "telefono": "623000010",
+        "email": "elena.ruiz@innovatech.es",
+        "departamento": "Seguridad"
       }
     ],
     "plazas": [
-      { "ciclo_id": 1, "num_alumnos": 3 },
-      { "ciclo_id": 2, "num_alumnos": 2 }
-    ]
+      {
+        "ciclo_id": 1,
+        "nombre_ciclo": "Desarrollo de Aplicaciones Web",
+        "num_alumnos": 3,
+        "horario": "Mañana"
+      },
+      {
+        "ciclo_id": 2,
+        "nombre_ciclo": "Desarrollo de Aplicaciones Multiplataforma",
+        "num_alumnos": 2,
+        "horario": "Tarde"
+      }
+    ],
+    "activo": true
   }
 ]
